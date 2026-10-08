@@ -1,0 +1,6 @@
+co/wethinkcode/warehouse/App.class
+co/wethinkcode/warehouse/config/DatabaseConfig.class
+co/wethinkcode/warehouse/repository/ProductRepository.class
+co/wethinkcode/warehouse/service/ProductService.class
+co/wethinkcode/warehouse/controller/ProductController.class
+co/wethinkcode/warehouse/model/Product.class

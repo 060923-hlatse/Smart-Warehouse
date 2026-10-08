@@ -1,0 +1,6 @@
+/home/wtc/Documents/Smart-Warehouse/src/main/java/co/wethinkcode/warehouse/App.java
+/home/wtc/Documents/Smart-Warehouse/src/main/java/co/wethinkcode/warehouse/config/DatabaseConfig.java
+/home/wtc/Documents/Smart-Warehouse/src/main/java/co/wethinkcode/warehouse/controller/ProductController.java
+/home/wtc/Documents/Smart-Warehouse/src/main/java/co/wethinkcode/warehouse/model/Product.java
+/home/wtc/Documents/Smart-Warehouse/src/main/java/co/wethinkcode/warehouse/repository/ProductRepository.java
+/home/wtc/Documents/Smart-Warehouse/src/main/java/co/wethinkcode/warehouse/service/ProductService.java
