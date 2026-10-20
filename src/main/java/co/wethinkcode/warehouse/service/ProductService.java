@@ -2,6 +2,9 @@ package co.wethinkcode.warehouse.service;
 
 import co.wethinkcode.warehouse.model.Product;
 import co.wethinkcode.warehouse.repository.ProductRepository;
+import java.util.List;
+import java.util.Optional;
+
 
 import java.sql.SQLException;
 
@@ -26,6 +29,10 @@ public class ProductService {
         }
 
         return productRepository.save(product);
+    }
+
+    public List<Product> getAllProducts() throws SQLException {
+        return productRepository.findAll();
     }
 
     private void validateProduct(Product product) {
@@ -53,5 +60,9 @@ public class ProductService {
         if (product.getReorderLevel() != null && product.getReorderLevel() < 0) {
             throw new IllegalArgumentException("Reorder level cannot be negative");
         }
+    }
+
+    public Optional<Product> getProductById(long id) throws SQLException {
+        return productRepository.findById(id);
     }
 }
